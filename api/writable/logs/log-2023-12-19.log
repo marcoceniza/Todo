@@ -1,0 +1,16 @@
+CRITICAL - 2023-12-19 00:31:46 --> Call to undefined method App\Models\TodoModel::fetch
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Todo.php(15): CodeIgniter\Model->__call('fetch', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Todo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todo))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\public\\index.php')
+CRITICAL - 2023-12-19 00:32:18 --> Call to undefined method App\Models\TodoModel::fetch
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Todo.php(15): CodeIgniter\Model->__call('fetch', [])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Todo->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todo))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\public\\index.php')

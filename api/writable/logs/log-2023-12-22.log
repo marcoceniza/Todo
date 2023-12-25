@@ -1,0 +1,27 @@
+CRITICAL - 2023-12-22 05:03:16 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:03:41 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:04:46 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:05:03 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:05:07 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:06:20 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:06:57 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:07:07 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-22 05:08:31 --> Declaration of App\Models\TodoModel::delete($todoID) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\TodoModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

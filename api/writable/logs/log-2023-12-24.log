@@ -1,0 +1,39 @@
+CRITICAL - 2023-12-24 05:49:14 --> Attempt to read property "is_important" on array
+in APPPATH\Models\TodoModel.php on line 34.
+ 1 APPPATH\Models\TodoModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "is_important" on array', 'C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\app\\Models\\TodoModel.php', 34)
+ 2 APPPATH\Controllers\Todo.php(86): App\Models\TodoModel->setToImportant('12')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Todo->setToImportantHandler()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todo))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\public\\index.php')
+CRITICAL - 2023-12-24 05:50:51 --> Attempt to read property "is_important" on array
+in APPPATH\Models\TodoModel.php on line 33.
+ 1 APPPATH\Models\TodoModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "is_important" on array', 'C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\app\\Models\\TodoModel.php', 33)
+ 2 APPPATH\Controllers\Todo.php(86): App\Models\TodoModel->setToImportant('12')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Todo->setToImportantHandler()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todo))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\public\\index.php')
+CRITICAL - 2023-12-24 05:53:51 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray('0', 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], '0')
+ 4 APPPATH\Models\TodoModel.php(35): CodeIgniter\Model->update('12', '0')
+ 5 APPPATH\Controllers\Todo.php(86): App\Models\TodoModel->setToImportant('12')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Todo->setToImportantHandler()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todo))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\public\\index.php')
+CRITICAL - 2023-12-24 05:55:23 --> Undefined variable $isImportant
+in APPPATH\Models\TodoModel.php on line 37.
+ 1 APPPATH\Models\TodoModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isImportant', 'C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\app\\Models\\TodoModel.php', 37)
+ 2 APPPATH\Controllers\Todo.php(86): App\Models\TodoModel->setToImportant('12')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Todo->setToImportantHandler()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Todo))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\marka\\OneDrive\\Desktop\\CI Prac\\2024\\todo-app\\api\\public\\index.php')
